@@ -12,6 +12,7 @@ from ml.model import (
     save_model,
     train_model,
 )
+
 # TODO: load the census.csv data
 project_path = os.getcwd()
 data_path = os.path.join(project_path, "data", "census.csv")
